@@ -1,0 +1,33 @@
+puts"What is the first activity?"
+activity_one=gets.chomp
+puts"What is the second activity?"
+activity_two=gets.chomp
+puts"What is the third activity?"
+activity_three=gets.chomp
+puts"What is the fourth activity?"
+activity_four=gets.chomp
+puts"Is there a fifth activity?"
+answer=gets.chomp
+answer.downcase
+if answer == "yes"
+	puts"What is the fifth activity?"
+	activity_five=gets.chomp
+else
+	puts"Ok!"
+end
+activites=[activity_one, activity_two, activity_three, activity_four, activity_5]
+a_symbols=[]
+activites.each do |x|
+    x.intern
+    activites.push(a_symbols)
+end
+
+class Student
+	def initialize
+		$first=first
+		$last=last
+	end
+	attr_writer= :first
+	attr_writer= :last
+end
+	
